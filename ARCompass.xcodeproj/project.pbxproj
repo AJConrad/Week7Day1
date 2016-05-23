@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B2016B1CF373DD00B3FE69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2016A1CF373DD00B3FE69 /* AppDelegate.swift */; };
+		49B2016D1CF373DD00B3FE69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2016C1CF373DD00B3FE69 /* ViewController.swift */; };
+		49B201701CF373DD00B3FE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B2016E1CF373DD00B3FE69 /* Main.storyboard */; };
+		49B201721CF373DD00B3FE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B201711CF373DD00B3FE69 /* Assets.xcassets */; };
+		49B201751CF373DD00B3FE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B201731CF373DD00B3FE69 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49B201671CF373DD00B3FE69 /* ARCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2016A1CF373DD00B3FE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49B2016C1CF373DD00B3FE69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49B2016F1CF373DD00B3FE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B201711CF373DD00B3FE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B201741CF373DD00B3FE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B201761CF373DD00B3FE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B201641CF373DD00B3FE69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B2015E1CF373DD00B3FE69 = {
+			isa = PBXGroup;
+			children = (
+				49B201691CF373DD00B3FE69 /* ARCompass */,
+				49B201681CF373DD00B3FE69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B201681CF373DD00B3FE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B201671CF373DD00B3FE69 /* ARCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B201691CF373DD00B3FE69 /* ARCompass */ = {
+			isa = PBXGroup;
+			children = (
+				49B2016A1CF373DD00B3FE69 /* AppDelegate.swift */,
+				49B2016C1CF373DD00B3FE69 /* ViewController.swift */,
+				49B2016E1CF373DD00B3FE69 /* Main.storyboard */,
+				49B201711CF373DD00B3FE69 /* Assets.xcassets */,
+				49B201731CF373DD00B3FE69 /* LaunchScreen.storyboard */,
+				49B201761CF373DD00B3FE69 /* Info.plist */,
+			);
+			path = ARCompass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B201661CF373DD00B3FE69 /* ARCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B201791CF373DD00B3FE69 /* Build configuration list for PBXNativeTarget "ARCompass" */;
+			buildPhases = (
+				49B201631CF373DD00B3FE69 /* Sources */,
+				49B201641CF373DD00B3FE69 /* Frameworks */,
+				49B201651CF373DD00B3FE69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCompass;
+			productName = ARCompass;
+			productReference = 49B201671CF373DD00B3FE69 /* ARCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B2015F1CF373DD00B3FE69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AndrewConrad;
+				TargetAttributes = {
+					49B201661CF373DD00B3FE69 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TYEMF78S4K;
+					};
+				};
+			};
+			buildConfigurationList = 49B201621CF373DD00B3FE69 /* Build configuration list for PBXProject "ARCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B2015E1CF373DD00B3FE69;
+			productRefGroup = 49B201681CF373DD00B3FE69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B201661CF373DD00B3FE69 /* ARCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B201651CF373DD00B3FE69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B201751CF373DD00B3FE69 /* LaunchScreen.storyboard in Resources */,
+				49B201721CF373DD00B3FE69 /* Assets.xcassets in Resources */,
+				49B201701CF373DD00B3FE69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B201631CF373DD00B3FE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2016D1CF373DD00B3FE69 /* ViewController.swift in Sources */,
+				49B2016B1CF373DD00B3FE69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49B2016E1CF373DD00B3FE69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B2016F1CF373DD00B3FE69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49B201731CF373DD00B3FE69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B201741CF373DD00B3FE69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B201771CF373DD00B3FE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B201781CF373DD00B3FE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B2017A1CF373DD00B3FE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ironyardstudent.ARCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49B2017B1CF373DD00B3FE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ironyardstudent.ARCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B201621CF373DD00B3FE69 /* Build configuration list for PBXProject "ARCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B201771CF373DD00B3FE69 /* Debug */,
+				49B201781CF373DD00B3FE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B201791CF373DD00B3FE69 /* Build configuration list for PBXNativeTarget "ARCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2017A1CF373DD00B3FE69 /* Debug */,
+				49B2017B1CF373DD00B3FE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B2015F1CF373DD00B3FE69 /* Project object */;
+}
