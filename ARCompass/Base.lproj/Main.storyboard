@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ARCompass" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fST-Xn-9Es">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.80110847510000005" green="0.80110847510000005" blue="0.80110847510000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-hN-FH5">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="TJ4-e7-KCJ"/>
+                                    <constraint firstAttribute="width" constant="100" id="jCy-OL-qaZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="1" green="0.054618008500000002" blue="0.10096496739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jtm-hN-FH5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="230" id="3Es-DT-NWM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jtm-hN-FH5" secondAttribute="trailing" constant="230" id="4SX-OU-7CM"/>
+                            <constraint firstItem="jtm-hN-FH5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O3W-2h-t85"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fST-Xn-9Es" secondAttribute="trailing" constant="-20" id="QOW-UD-2K8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fST-Xn-9Es" secondAttribute="bottom" id="Ssa-72-xSe"/>
+                            <constraint firstItem="fST-Xn-9Es" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="TWS-XG-xqQ"/>
+                            <constraint firstItem="jtm-hN-FH5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="230" id="bRT-NP-ZZs"/>
+                            <constraint firstItem="fST-Xn-9Es" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="bew-T4-uqF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jtm-hN-FH5" secondAttribute="bottom" constant="250" id="gAL-rK-cOd"/>
+                            <constraint firstItem="jtm-hN-FH5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lMq-Sh-3ob"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3Es-DT-NWM"/>
+                                <exclude reference="4SX-OU-7CM"/>
+                                <exclude reference="bRT-NP-ZZs"/>
+                                <exclude reference="gAL-rK-cOd"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="directionCameraView" destination="fST-Xn-9Es" id="O6H-HB-C5X"/>
+                        <outlet property="directionHeadingLabel" destination="jtm-hN-FH5" id="Cua-nR-L6c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="337"/>
         </scene>
     </scenes>
 </document>
